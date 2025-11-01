@@ -1,0 +1,216 @@
+{
+  "timestamp": "2025-11-01T04:23:39.263353",
+  "stats": {
+    "total_files": 3172,
+    "exact_duplicates": 29,
+    "semantic_duplicates": 467,
+    "files_removed": 29,
+    "space_saved": 132332,
+    "groups_processed": 29
+  },
+  "removed_files": [
+    {
+      "removed": "deep_rename_backup_20251101_041453/song--analyze-keys.py",
+      "kept": "openai-analyzer.py",
+      "type": "exact_duplicate",
+      "size": 1099,
+      "reason": "Exact duplicate of openai-analyzer.py"
+    },
+    {
+      "removed": "deep_rename_backup_20251101_041453/youtube_copy_zombot_images.py",
+      "kept": "youtube-image-generater.py",
+      "type": "exact_duplicate",
+      "size": 4957,
+      "reason": "Exact duplicate of youtube-image-generater.py"
+    },
+    {
+      "removed": "deep_rename_backup_20251101_041453/analyze-mp3-transcript-prompts(1)_code.py",
+      "kept": "openai-audio-analyzer.py",
+      "type": "exact_duplicate",
+      "size": 4740,
+      "reason": "Exact duplicate of openai-audio-analyzer.py"
+    },
+    {
+      "removed": "deep_rename_backup_20251101_041453/youtube__get_qt_vers.py",
+      "kept": "youtube-downloadr.py",
+      "type": "exact_duplicate",
+      "size": 1643,
+      "reason": "Exact duplicate of youtube-downloadr.py"
+    },
+    {
+      "removed": "deep_rename_backup_20251101_041453/youtube__cf_data_from_bytes.py",
+      "kept": "youtube-downloadr-v3.py",
+      "type": "exact_duplicate",
+      "size": 13922,
+      "reason": "Exact duplicate of youtube-downloadr-v3.py"
+    },
+    {
+      "removed": "deep_rename_backup_20251101_041453/youtube__utf8.py",
+      "kept": "youtube-utf.py",
+      "type": "exact_duplicate",
+      "size": 4795,
+      "reason": "Exact duplicate of youtube-utf.py"
+    },
+    {
+      "removed": "deep_rename_backup_20251101_041453/youtube__abs_path.py",
+      "kept": "youtube-downloadr-v2.py",
+      "type": "exact_duplicate",
+      "size": 10254,
+      "reason": "Exact duplicate of youtube-downloadr-v2.py"
+    },
+    {
+      "removed": "deep_rename_backup_20251101_041453/analysis_tools/__init__.py",
+      "kept": "analysis_tools/init.py",
+      "type": "exact_duplicate",
+      "size": 246,
+      "reason": "Exact duplicate of init.py"
+    },
+    {
+      "removed": "deep_rename_backup_20251101_041453/leonardo/leonardo_script 2.py",
+      "kept": "leonardo/requests-image-downloadr.py",
+      "type": "exact_duplicate",
+      "size": 4501,
+      "reason": "Exact duplicate of requests-image-downloadr.py"
+    },
+    {
+      "removed": "deep_rename_backup_20251101_041453/folder-file-sorter/organize_albums 9.py",
+      "kept": "folder-file-sorter/organize-albums.py",
+      "type": "exact_duplicate",
+      "size": 2466,
+      "reason": "Exact duplicate of organize-albums.py"
+    },
+    {
+      "removed": "deep_rename_backup_20251101_041453/folder-file-sorter/organize_albums 14.py",
+      "kept": "folder-file-sorter/organize-albums-v2.py",
+      "type": "exact_duplicate",
+      "size": 2469,
+      "reason": "Exact duplicate of organize-albums-v2.py"
+    },
+    {
+      "removed": "deep_rename_backup_20251101_041453/folder-file-sorter/organize_albums 15.py",
+      "kept": "folder-file-sorter/organize-albums-v3.py",
+      "type": "exact_duplicate",
+      "size": 2470,
+      "reason": "Exact duplicate of organize-albums-v3.py"
+    },
+    {
+      "removed": "deep_rename_backup_20251101_041453/igbot/examples/like_and_follow_your_last_media_likers.py",
+      "kept": "igbot/examples/like-and-follow.py",
+      "type": "exact_duplicate",
+      "size": 1229,
+      "reason": "Exact duplicate of like-and-follow.py"
+    },
+    {
+      "removed": "deep_rename_backup_20251101_041453/instapy-quickstart/quickstart_templates/friends_last_post_likes_and_interact_with_user_based_on_hashtahs.py",
+      "kept": "instapy-quickstart/quickstart_templates/instagram-image-uploadr.py",
+      "type": "exact_duplicate",
+      "size": 6550,
+      "reason": "Exact duplicate of instagram-image-uploadr.py"
+    },
+    {
+      "removed": "deep_rename_backup_20251101_041453/instapy-quickstart/quickstart_templates/stylish_unfollow_tips_and_like_by_tags.py",
+      "kept": "instapy-quickstart/quickstart_templates/stylish-unfollow-tips.py",
+      "type": "exact_duplicate",
+      "size": 4387,
+      "reason": "Exact duplicate of stylish-unfollow-tips.py"
+    },
+    {
+      "removed": "deep_rename_backup_20251101_041453/instapy-quickstart/quickstart_templates/target_followers_of_similar_accounts_and_influencers.py",
+      "kept": "instapy-quickstart/quickstart_templates/instagram-downloadr.py",
+      "type": "exact_duplicate",
+      "size": 3981,
+      "reason": "Exact duplicate of instagram-downloadr.py"
+    },
+    {
+      "removed": "deep_rename_backup_20251101_041453/_versions/CONTENT_CREATION/leonardo/2leomotioncopy_2.py",
+      "kept": "_versions/CONTENT_CREATION/leonardo/leomotioncopy.py",
+      "type": "exact_duplicate",
+      "size": 3096,
+      "reason": "Exact duplicate of leomotioncopy.py"
+    },
+    {
+      "removed": "deep_rename_backup_20251101_041453/_versions/CONTENT_CREATION/quiz/speak(1).py",
+      "kept": "_versions/CONTENT_CREATION/quiz/openai-generater.py",
+      "type": "exact_duplicate",
+      "size": 1747,
+      "reason": "Exact duplicate of openai-generater.py"
+    },
+    {
+      "removed": "deep_rename_backup_20251101_041453/_versions/MEDIA_PROCESSING/image/fancyimg(1)_3.py",
+      "kept": "_versions/MEDIA_PROCESSING/image/openai-image-generater.py",
+      "type": "exact_duplicate",
+      "size": 3008,
+      "reason": "Exact duplicate of openai-image-generater.py"
+    },
+    {
+      "removed": "deep_rename_backup_20251101_041453/_versions/MEDIA_PROCESSING/image/pipeline(1).py",
+      "kept": "_versions/MEDIA_PROCESSING/image/opencv-video-downloadr.py",
+      "type": "exact_duplicate",
+      "size": 15867,
+      "reason": "Exact duplicate of opencv-video-downloadr.py"
+    },
+    {
+      "removed": "deep_rename_backup_20251101_041453/_versions/MEDIA_PROCESSING/image/upcreatmod(1).py",
+      "kept": "_versions/MEDIA_PROCESSING/image/requests-generater.py",
+      "type": "exact_duplicate",
+      "size": 4524,
+      "reason": "Exact duplicate of requests-generater.py"
+    },
+    {
+      "removed": "deep_rename_backup_20251101_041453/_versions/MEDIA_PROCESSING/audio/story-key-transcopy_1.py",
+      "kept": "_versions/MEDIA_PROCESSING/audio/openai-analyzer.py",
+      "type": "exact_duplicate",
+      "size": 6661,
+      "reason": "Exact duplicate of openai-analyzer.py"
+    },
+    {
+      "removed": "deep_rename_backup_20251101_041453/leonardo/.history/process_leonardo_20250102110137.py",
+      "kept": "leonardo/.history/leonardo-processr-v3.py",
+      "type": "exact_duplicate",
+      "size": 2240,
+      "reason": "Exact duplicate of leonardo-processr-v3.py"
+    },
+    {
+      "removed": "deep_rename_backup_20251101_041453/leonardo/.history/leodown_20250102105151.py",
+      "kept": "leonardo/.history/leodown-v2.py",
+      "type": "exact_duplicate",
+      "size": 1318,
+      "reason": "Exact duplicate of leodown-v2.py"
+    },
+    {
+      "removed": "deep_rename_backup_20251101_041453/leonardo/.history/process_leonardo_20250102104751.py",
+      "kept": "leonardo/.history/leonardo-processr-v2.py",
+      "type": "exact_duplicate",
+      "size": 1570,
+      "reason": "Exact duplicate of leonardo-processr-v2.py"
+    },
+    {
+      "removed": "deep_rename_backup_20251101_041453/leonardo/.history/process_leonardo_20250102110033.py",
+      "kept": "leonardo/.history/leonardo-processr.py",
+      "type": "exact_duplicate",
+      "size": 2220,
+      "reason": "Exact duplicate of leonardo-processr.py"
+    },
+    {
+      "removed": "deep_rename_backup_20251101_041453/leonardo/.history/leodown_20250102111003.py",
+      "kept": "leonardo/.history/leodown.py",
+      "type": "exact_duplicate",
+      "size": 1318,
+      "reason": "Exact duplicate of leodown.py"
+    },
+    {
+      "removed": "deep_rename_backup_20251101_041453/videoGenerator/.history/main_20221230233546.py",
+      "kept": "videoGenerator/.history/moviepy-video-downloadr.py",
+      "type": "exact_duplicate",
+      "size": 15231,
+      "reason": "Exact duplicate of moviepy-video-downloadr.py"
+    },
+    {
+      "removed": "deep_rename_backup_20251101_041453/Youtube/youtube-shorts-reddit-scraper/.history/main_20221230223947.py",
+      "kept": "Youtube/youtube-shorts-reddit-scraper/.history/selenium-image-generater.py",
+      "type": "exact_duplicate",
+      "size": 3823,
+      "reason": "Exact duplicate of selenium-image-generater.py"
+    }
+  ]
+}

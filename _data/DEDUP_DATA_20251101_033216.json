@@ -1,0 +1,377 @@
+{
+  "timestamp": "2025-11-01T03:32:16.857469",
+  "stats": {
+    "total_files": 3516,
+    "exact_duplicates": 40,
+    "semantic_duplicates": 501,
+    "files_removed": 52,
+    "space_saved": 540173,
+    "groups_processed": 40
+  },
+  "removed_files": [
+    {
+      "removed": "dedup_backup/Users/steven/Documents/python/dedup_backup/Users/steven/Documents/python/simple_python_explorer.py",
+      "kept": "simple_python_explorer.py",
+      "type": "exact_duplicate",
+      "size": 24601,
+      "reason": "Exact duplicate of simple_python_explorer.py"
+    },
+    {
+      "removed": "dedup_backup/Users/steven/Documents/python/dedup_backup/Users/steven/Documents/python/github_repo_manager.py",
+      "kept": "github_repo_manager.py",
+      "type": "exact_duplicate",
+      "size": 48745,
+      "reason": "Exact duplicate of github_repo_manager.py"
+    },
+    {
+      "removed": "dedup_backup/Users/steven/Documents/python/dedup_backup/Users/steven/Documents/python/python_syntax_fixer.py",
+      "kept": "python_syntax_fixer.py",
+      "type": "exact_duplicate",
+      "size": 17467,
+      "reason": "Exact duplicate of python_syntax_fixer.py"
+    },
+    {
+      "removed": "dedup_backup/Users/steven/Documents/python/dedup_backup/Users/steven/Documents/python/github_upload_manager.py",
+      "kept": "github_upload_manager.py",
+      "type": "exact_duplicate",
+      "size": 15790,
+      "reason": "Exact duplicate of github_upload_manager.py"
+    },
+    {
+      "removed": "dedup_backup/Users/steven/Documents/python/dedup_backup/Users/steven/Documents/python/check_quality.py",
+      "kept": "check_quality.py",
+      "type": "exact_duplicate",
+      "size": 3189,
+      "reason": "Exact duplicate of check_quality.py"
+    },
+    {
+      "removed": "dedup_backup/Users/steven/Documents/python/dedup_backup/Users/steven/Documents/python/simple_analysis_and_docs.py",
+      "kept": "simple_analysis_and_docs.py",
+      "type": "exact_duplicate",
+      "size": 32455,
+      "reason": "Exact duplicate of simple_analysis_and_docs.py"
+    },
+    {
+      "removed": "dedup_backup/Users/steven/Documents/python/dedup_backup/Users/steven/Documents/python/python_code_enhancer.py",
+      "kept": "python_code_enhancer.py",
+      "type": "exact_duplicate",
+      "size": 17673,
+      "reason": "Exact duplicate of python_code_enhancer.py"
+    },
+    {
+      "removed": "dedup_backup/Users/steven/Documents/python/dedup_backup/Users/steven/Documents/python/master_analysis_and_docs.py",
+      "kept": "master_analysis_and_docs.py",
+      "type": "exact_duplicate",
+      "size": 10107,
+      "reason": "Exact duplicate of master_analysis_and_docs.py"
+    },
+    {
+      "removed": "dedup_backup/Users/steven/Documents/python/dedup_backup/Users/steven/Documents/python/deep_content_analyzer.py",
+      "kept": "deep_content_analyzer.py",
+      "type": "exact_duplicate",
+      "size": 41923,
+      "reason": "Exact duplicate of deep_content_analyzer.py"
+    },
+    {
+      "removed": "ai_powered_deep_analyzer.py",
+      "kept": "ai-powered-deep-analyzer.py",
+      "type": "exact_duplicate",
+      "size": 29445,
+      "reason": "Exact duplicate of ai-powered-deep-analyzer.py"
+    },
+    {
+      "removed": "dedup_backup/Users/steven/Documents/python/dedup_backup/Users/steven/Documents/python/auto_update_github.py",
+      "kept": "auto_update_github.py",
+      "type": "exact_duplicate",
+      "size": 15455,
+      "reason": "Exact duplicate of auto_update_github.py"
+    },
+    {
+      "removed": "dedup_backup/Users/steven/Documents/python/dedup_backup/Users/steven/Documents/python/github_repo_analyzer.py",
+      "kept": "github_repo_analyzer.py",
+      "type": "exact_duplicate",
+      "size": 35249,
+      "reason": "Exact duplicate of github_repo_analyzer.py"
+    },
+    {
+      "removed": "dedup_backup/Users/steven/Documents/python/dedup_backup/Users/steven/Documents/python/generate_code_gallery.py",
+      "kept": "generate_code_gallery.py",
+      "type": "exact_duplicate",
+      "size": 53623,
+      "reason": "Exact duplicate of generate_code_gallery.py"
+    },
+    {
+      "removed": "dedup_backup/Users/steven/Documents/python/dedup_backup/Users/steven/Documents/python/twitchtube/twitchtube/youtube_request.py",
+      "kept": "youtube_request.py",
+      "type": "exact_duplicate",
+      "size": 1186,
+      "reason": "Exact duplicate of youtube_request.py"
+    },
+    {
+      "removed": "dedup_backup/Users/steven/Documents/python/dedup_backup/Users/steven/Documents/python/comprehensive_doc_generator.py",
+      "kept": "comprehensive_doc_generator.py",
+      "type": "exact_duplicate",
+      "size": 26081,
+      "reason": "Exact duplicate of comprehensive_doc_generator.py"
+    },
+    {
+      "removed": "SpotifyMP3/.history/playlist_20221230180809.py",
+      "kept": "SpotifyMP3/.history/playlist_20221230180403.py",
+      "type": "exact_duplicate",
+      "size": 6401,
+      "reason": "Exact duplicate of playlist_20221230180403.py"
+    },
+    {
+      "removed": "videoGenerator/.history/main_20221230233748.py",
+      "kept": "videoGenerator/.history/main_20221230233546.py",
+      "type": "exact_duplicate",
+      "size": 15071,
+      "reason": "Exact duplicate of main_20221230233546.py"
+    },
+    {
+      "removed": "_versions/DEVELOPMENT/main/main_28.py",
+      "kept": "videoGenerator/.history/main_20221230233546.py",
+      "type": "exact_duplicate",
+      "size": 15071,
+      "reason": "Exact duplicate of main_20221230233546.py"
+    },
+    {
+      "removed": "Youtube/youtube-shorts-reddit-scraper/.history/main_20221230223427.py",
+      "kept": "_versions/DEVELOPMENT/main/main_25.py",
+      "type": "exact_duplicate",
+      "size": 3837,
+      "reason": "Exact duplicate of main_25.py"
+    },
+    {
+      "removed": "leonardo/.history/process_leonardo_20250102110442.py",
+      "kept": "leonardo/.history/process_leonardo_20250102110441.py",
+      "type": "exact_duplicate",
+      "size": 4931,
+      "reason": "Exact duplicate of process_leonardo_20250102110441.py"
+    },
+    {
+      "removed": "_versions/DEVELOPMENT/process/process_21.py",
+      "kept": "leonardo/.history/process_leonardo_20250102110441.py",
+      "type": "exact_duplicate",
+      "size": 4931,
+      "reason": "Exact duplicate of process_leonardo_20250102110441.py"
+    },
+    {
+      "removed": "leonardo/.history/process_leonardo_20250102110148.py",
+      "kept": "leonardo/.history/process_leonardo_20250102110033.py",
+      "type": "exact_duplicate",
+      "size": 2220,
+      "reason": "Exact duplicate of process_leonardo_20250102110033.py"
+    },
+    {
+      "removed": "_versions/DEVELOPMENT/process/process_6.py",
+      "kept": "leonardo/.history/process_leonardo_20250102110033.py",
+      "type": "exact_duplicate",
+      "size": 2220,
+      "reason": "Exact duplicate of process_leonardo_20250102110033.py"
+    },
+    {
+      "removed": "_versions/DEVELOPMENT/process/process_16.py",
+      "kept": "leonardo/.history/process_leonardo_20250102110137.py",
+      "type": "exact_duplicate",
+      "size": 2240,
+      "reason": "Exact duplicate of process_leonardo_20250102110137.py"
+    },
+    {
+      "removed": "leonardo/.history/process_leonardo_20250102110149.py",
+      "kept": "leonardo/.history/process_leonardo_20250102104751.py",
+      "type": "exact_duplicate",
+      "size": 1570,
+      "reason": "Exact duplicate of process_leonardo_20250102104751.py"
+    },
+    {
+      "removed": "_versions/DEVELOPMENT/process/process_17.py",
+      "kept": "leonardo/.history/process_leonardo_20250102104751.py",
+      "type": "exact_duplicate",
+      "size": 1570,
+      "reason": "Exact duplicate of process_leonardo_20250102104751.py"
+    },
+    {
+      "removed": "Youtube/.history/NewUpload_20250607131201.py",
+      "kept": "Youtube/.history/NewUpload_20250607131215.py",
+      "type": "exact_duplicate",
+      "size": 4011,
+      "reason": "Exact duplicate of NewUpload_20250607131215.py"
+    },
+    {
+      "removed": "Youtube/.history/NewUpload_20250607131143.py",
+      "kept": "Youtube/.history/NewUpload_20250607131215.py",
+      "type": "exact_duplicate",
+      "size": 4011,
+      "reason": "Exact duplicate of NewUpload_20250607131215.py"
+    },
+    {
+      "removed": "Youtube/.history/NewUpload_20250607130948.py",
+      "kept": "Youtube/.history/NewUpload_20250607131215.py",
+      "type": "exact_duplicate",
+      "size": 4011,
+      "reason": "Exact duplicate of NewUpload_20250607131215.py"
+    },
+    {
+      "removed": "_versions/FILE_MANAGEMENT/upload/NewUpload_10.py",
+      "kept": "Youtube/.history/NewUpload_20250607131215.py",
+      "type": "exact_duplicate",
+      "size": 4011,
+      "reason": "Exact duplicate of NewUpload_20250607131215.py"
+    },
+    {
+      "removed": "Youtube/.history/NewUpload_20250607131039.py",
+      "kept": "Youtube/.history/NewUpload_20250607131149.py",
+      "type": "exact_duplicate",
+      "size": 5451,
+      "reason": "Exact duplicate of NewUpload_20250607131149.py"
+    },
+    {
+      "removed": "_versions/FILE_MANAGEMENT/upload/NewUpload_15.py",
+      "kept": "Youtube/.history/NewUpload_20250607131149.py",
+      "type": "exact_duplicate",
+      "size": 5451,
+      "reason": "Exact duplicate of NewUpload_20250607131149.py"
+    },
+    {
+      "removed": "_versions/FILE_MANAGEMENT/upload/NewUpload_11.py",
+      "kept": "Youtube/.history/NewUpload_20250607131205.py",
+      "type": "exact_duplicate",
+      "size": 4012,
+      "reason": "Exact duplicate of NewUpload_20250607131205.py"
+    },
+    {
+      "removed": "_versions/FILE_MANAGEMENT/upload/NewUpload_9.py",
+      "kept": "Youtube/.history/NewUpload_20250607131221.py",
+      "type": "exact_duplicate",
+      "size": 3857,
+      "reason": "Exact duplicate of NewUpload_20250607131221.py"
+    },
+    {
+      "removed": "_versions/FILE_MANAGEMENT/upload/NewUpload_6.py",
+      "kept": "Youtube/.history/NewUpload_20250607131227.py",
+      "type": "exact_duplicate",
+      "size": 3846,
+      "reason": "Exact duplicate of NewUpload_20250607131227.py"
+    },
+    {
+      "removed": "_versions/FILE_MANAGEMENT/upload/NewUpload_7.py",
+      "kept": "Youtube/.history/NewUpload_20250607131212.py",
+      "type": "exact_duplicate",
+      "size": 3084,
+      "reason": "Exact duplicate of NewUpload_20250607131212.py"
+    },
+    {
+      "removed": "_versions/FILE_MANAGEMENT/upload/NewUpload_18.py",
+      "kept": "Youtube/.history/NewUpload_20250607131028.py",
+      "type": "exact_duplicate",
+      "size": 4688,
+      "reason": "Exact duplicate of NewUpload_20250607131028.py"
+    },
+    {
+      "removed": "_versions/FILE_MANAGEMENT/upload/NewUpload_19.py",
+      "kept": "Youtube/.history/NewUpload_20250607125040.py",
+      "type": "exact_duplicate",
+      "size": 2711,
+      "reason": "Exact duplicate of NewUpload_20250607125040.py"
+    },
+    {
+      "removed": "_versions/FILE_MANAGEMENT/upload/NewUpload_5.py",
+      "kept": "Youtube/.history/NewUpload_20250607131031.py",
+      "type": "exact_duplicate",
+      "size": 4752,
+      "reason": "Exact duplicate of NewUpload_20250607131031.py"
+    },
+    {
+      "removed": "_versions/FILE_MANAGEMENT/upload/NewUpload_16.py",
+      "kept": "Youtube/.history/NewUpload_20250607124913.py",
+      "type": "exact_duplicate",
+      "size": 2585,
+      "reason": "Exact duplicate of NewUpload_20250607124913.py"
+    },
+    {
+      "removed": "_versions/FILE_MANAGEMENT/upload/NewUpload_12.py",
+      "kept": "Youtube/.history/NewUpload_20250607130440.py",
+      "type": "exact_duplicate",
+      "size": 2703,
+      "reason": "Exact duplicate of NewUpload_20250607130440.py"
+    },
+    {
+      "removed": "_versions/FILE_MANAGEMENT/upload/NewUpload_13.py",
+      "kept": "Youtube/.history/NewUpload_20250607131235.py",
+      "type": "exact_duplicate",
+      "size": 3084,
+      "reason": "Exact duplicate of NewUpload_20250607131235.py"
+    },
+    {
+      "removed": "leonardo/.history/leodown_20250102105147.py",
+      "kept": "leonardo/.history/leodown_20250102105151.py",
+      "type": "exact_duplicate",
+      "size": 1318,
+      "reason": "Exact duplicate of leodown_20250102105151.py"
+    },
+    {
+      "removed": "leonardo/.history/leodown_20250102111110.py",
+      "kept": "leonardo/.history/leodown_20250102105151.py",
+      "type": "exact_duplicate",
+      "size": 1318,
+      "reason": "Exact duplicate of leodown_20250102105151.py"
+    },
+    {
+      "removed": "_versions/CONTENT_CREATION/leonardo/leodown_9.py",
+      "kept": "leonardo/.history/leodown_20250102105151.py",
+      "type": "exact_duplicate",
+      "size": 1318,
+      "reason": "Exact duplicate of leodown_20250102105151.py"
+    },
+    {
+      "removed": "_versions/CONTENT_CREATION/leonardo/leodown_6.py",
+      "kept": "leonardo/.history/leodown_20250102105149.py",
+      "type": "exact_duplicate",
+      "size": 1320,
+      "reason": "Exact duplicate of leodown_20250102105149.py"
+    },
+    {
+      "removed": "_versions/CONTENT_CREATION/leonardo/leonardo_ai_generation_downloader_v2.py",
+      "kept": "leonardo/.history/process_leonardo_20250102110258.py",
+      "type": "exact_duplicate",
+      "size": 4939,
+      "reason": "Exact duplicate of process_leonardo_20250102110258.py"
+    },
+    {
+      "removed": "videoGenerator/.history/main_20221230234008.py",
+      "kept": "_versions/CONTENT_CREATION/video_automation/motivational_video_generator_pexels.py",
+      "type": "exact_duplicate",
+      "size": 15075,
+      "reason": "Exact duplicate of motivational_video_generator_pexels.py"
+    },
+    {
+      "removed": "videoGenerator/.history/main_20221230225837.py",
+      "kept": "_versions/CONTENT_CREATION/video_automation/motivational_video_generator_pexels.py",
+      "type": "exact_duplicate",
+      "size": 15075,
+      "reason": "Exact duplicate of motivational_video_generator_pexels.py"
+    },
+    {
+      "removed": "leonardo/.history/leodown_20250102105144.py",
+      "kept": "Youtube/.history/NewUpload_20250607124910.py",
+      "type": "exact_duplicate",
+      "size": 0,
+      "reason": "Exact duplicate of NewUpload_20250607124910.py"
+    },
+    {
+      "removed": "leonardo/.history/process_leonardo_20250102104737.py",
+      "kept": "Youtube/.history/NewUpload_20250607124910.py",
+      "type": "exact_duplicate",
+      "size": 0,
+      "reason": "Exact duplicate of NewUpload_20250607124910.py"
+    },
+    {
+      "removed": "dedup_backup/Users/steven/Documents/python/dedup_backup/Users/steven/Documents/python/Python-organize/api_integration/quiz-time.py",
+      "kept": "Python-organize/text-to-speech_tts_api_integration__audio_processing/quiz-time.py",
+      "type": "exact_duplicate",
+      "size": 4491,
+      "reason": "Exact duplicate of quiz-time.py"
+    }
+  ]
+}

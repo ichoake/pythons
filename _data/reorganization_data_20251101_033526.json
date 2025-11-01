@@ -1,0 +1,1160 @@
+{
+  "timestamp": "2025-11-01T03:35:26.682399",
+  "stats": {
+    "total_folders": 1250,
+    "folders_to_move": 164,
+    "deep_folders": 164,
+    "files_affected": 539
+  },
+  "max_depth": 6,
+  "move_plan": [
+    {
+      "old": "bare_except_backup_20251101_033421/leonardo/myenv/lib/python3.11/site-packages/pip/_vendor/pygments/formatters",
+      "new": "bare_except_backup_20251101_033421/leonardo/myenv_lib_python3.11_site-packages_pip__vendor_pygments_formatters",
+      "old_depth": 10,
+      "new_depth": 3,
+      "files": 1
+    },
+    {
+      "old": "bare_except_backup_20251101_033421/leonardo/myenv/lib/python3.11/site-packages/pip/_vendor/cachecontrol/caches",
+      "new": "bare_except_backup_20251101_033421/leonardo/myenv_lib_python3.11_site-packages_pip__vendor_cachecontrol_caches",
+      "old_depth": 10,
+      "new_depth": 3,
+      "files": 1
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_vendor/urllib3/contrib/_securetransport",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__vendor_urllib3_contrib__securetransport",
+      "old_depth": 10,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_vendor/urllib3/packages/backports",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__vendor_urllib3_packages_backports",
+      "old_depth": 10,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "bare_except_backup_20251101_033421/leonardo/myenv/lib/python3.11/site-packages/pip/_vendor/pygments",
+      "new": "bare_except_backup_20251101_033421/leonardo/myenv_lib_python3.11_site-packages_pip__vendor_pygments",
+      "old_depth": 9,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "bare_except_backup_20251101_033421/leonardo/myenv/lib/python3.11/site-packages/pip/_vendor/cachecontrol",
+      "new": "bare_except_backup_20251101_033421/leonardo/myenv_lib_python3.11_site-packages_pip__vendor_cachecontrol",
+      "old_depth": 9,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "bare_except_backup_20251101_033421/python3.9/lib/python3.12/site-packages/pip/_vendor/pygments/formatters",
+      "new": "bare_except_backup_20251101_033421/python3.9/lib_python3.12_site-packages_pip__vendor_pygments_formatters",
+      "old_depth": 9,
+      "new_depth": 3,
+      "files": 1
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_internal/operations/install",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__internal_operations_install",
+      "old_depth": 9,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_internal/operations/build",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__internal_operations_build",
+      "old_depth": 9,
+      "new_depth": 3,
+      "files": 1
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_internal/resolution/legacy",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__internal_resolution_legacy",
+      "old_depth": 9,
+      "new_depth": 3,
+      "files": 1
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_internal/resolution/resolvelib",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__internal_resolution_resolvelib",
+      "old_depth": 9,
+      "new_depth": 3,
+      "files": 6
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_internal/metadata/importlib",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__internal_metadata_importlib",
+      "old_depth": 9,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_vendor/chardet/cli",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__vendor_chardet_cli",
+      "old_depth": 9,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_vendor/chardet/metadata",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__vendor_chardet_metadata",
+      "old_depth": 9,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_vendor/pygments/lexers",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__vendor_pygments_lexers",
+      "old_depth": 9,
+      "new_depth": 3,
+      "files": 1
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_vendor/pygments/formatters",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__vendor_pygments_formatters",
+      "old_depth": 9,
+      "new_depth": 3,
+      "files": 12
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_vendor/colorama/tests",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__vendor_colorama_tests",
+      "old_depth": 9,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_vendor/cachecontrol/caches",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__vendor_cachecontrol_caches",
+      "old_depth": 9,
+      "new_depth": 3,
+      "files": 2
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_vendor/pyproject_hooks/_in_process",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__vendor_pyproject_hooks__in_process",
+      "old_depth": 9,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_vendor/urllib3/util",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__vendor_urllib3_util",
+      "old_depth": 9,
+      "new_depth": 3,
+      "files": 1
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_vendor/urllib3/contrib",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__vendor_urllib3_contrib",
+      "old_depth": 9,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_vendor/urllib3/packages",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__vendor_urllib3_packages",
+      "old_depth": 9,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_vendor/resolvelib/compat",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__vendor_resolvelib_compat",
+      "old_depth": 9,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_vendor/urllib3/contrib/_securetransport",
+      "new": "python3.9/lib/python3.12_site-packages_pip__vendor_urllib3_contrib__securetransport",
+      "old_depth": 9,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_vendor/urllib3/packages/backports",
+      "new": "python3.9/lib/python3.12_site-packages_pip__vendor_urllib3_packages_backports",
+      "old_depth": 9,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "bare_except_backup_20251101_033421/leonardo/myenv/lib/python3.11/site-packages/pip/_vendor",
+      "new": "bare_except_backup_20251101_033421/leonardo/myenv_lib_python3.11_site-packages_pip__vendor",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "bare_except_backup_20251101_033421/python3.9/lib/python3.12/site-packages/pip/_vendor/msgpack",
+      "new": "bare_except_backup_20251101_033421/python3.9/lib_python3.12_site-packages_pip__vendor_msgpack",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 1
+    },
+    {
+      "old": "bare_except_backup_20251101_033421/python3.9/lib/python3.12/site-packages/pip/_vendor/pygments",
+      "new": "bare_except_backup_20251101_033421/python3.9/lib_python3.12_site-packages_pip__vendor_pygments",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "bare_except_backup_20251101_033421/python3.9/lib/python3.12/site-packages/pip/_vendor/rich",
+      "new": "bare_except_backup_20251101_033421/python3.9/lib_python3.12_site-packages_pip__vendor_rich",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 2
+    },
+    {
+      "old": "tui.editor/plugins/table-merged-cell/src/__test__/integration/wysiwyg/helper",
+      "new": "tui.editor/plugins/table-merged-cell_src___test___integration_wysiwyg_helper",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "tui.editor/apps/editor/src/__test__/unit/markdown/__snapshots__",
+      "new": "tui.editor/apps/editor_src___test___unit_markdown___snapshots__",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "tui.editor/apps/editor/src/__test__/unit/wysiwyg/helper",
+      "new": "tui.editor/apps/editor_src___test___unit_wysiwyg_helper",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_internal/network",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__internal_network",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 5
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_internal/utils",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__internal_utils",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 8
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_internal/models",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__internal_models",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 6
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_internal/cli",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__internal_cli",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 3
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_internal/operations",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__internal_operations",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 2
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_internal/req",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__internal_req",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 5
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_internal/resolution",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__internal_resolution",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_internal/vcs",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__internal_vcs",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 3
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_internal/locations",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__internal_locations",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_internal/index",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__internal_index",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 3
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_internal/commands",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__internal_commands",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 7
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_internal/metadata",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__internal_metadata",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 2
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_internal/distributions",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__internal_distributions",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 4
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_vendor/packaging",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__vendor_packaging",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_vendor/chardet",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__vendor_chardet",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_vendor/webencodings",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__vendor_webencodings",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_vendor/pygments",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__vendor_pygments",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 14
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_vendor/distlib",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__vendor_distlib",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 11
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_vendor/pyparsing",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__vendor_pyparsing",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 9
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_vendor/distro",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__vendor_distro",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_vendor/colorama",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__vendor_colorama",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_vendor/cachecontrol",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__vendor_cachecontrol",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 8
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_vendor/idna",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__vendor_idna",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_vendor/tenacity",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__vendor_tenacity",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_vendor/requests",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__vendor_requests",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 4
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_vendor/tomli",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__vendor_tomli",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_vendor/certifi",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__vendor_certifi",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_vendor/pyproject_hooks",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__vendor_pyproject_hooks",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_vendor/rich",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__vendor_rich",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 2
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_vendor/urllib3",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__vendor_urllib3",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 3
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_vendor/resolvelib",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__vendor_resolvelib",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_vendor/platformdirs",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__vendor_platformdirs",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 6
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/urllib3/contrib/emscripten",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_urllib3_contrib_emscripten",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 4
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/setuptools/_vendor/packaging",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_setuptools__vendor_packaging",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 2
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/setuptools/_vendor/jaraco",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_setuptools__vendor_jaraco",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 2
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/setuptools/_vendor/pyparsing",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_setuptools__vendor_pyparsing",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 1
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/setuptools/_vendor/importlib_metadata",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_setuptools__vendor_importlib_metadata",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/setuptools/_vendor/more_itertools",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_setuptools__vendor_more_itertools",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 2
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/setuptools/_vendor/importlib_resources",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_setuptools__vendor_importlib_resources",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 3
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/setuptools/_vendor/tomli",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_setuptools__vendor_tomli",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/setuptools/config/_validate_pyproject",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_setuptools_config__validate_pyproject",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 5
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/setuptools/_distutils/command",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_setuptools__distutils_command",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 21
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_internal/operations/install",
+      "new": "python3.9/lib/python3.12_site-packages_pip__internal_operations_install",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 1
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_internal/operations/build",
+      "new": "python3.9/lib/python3.12_site-packages_pip__internal_operations_build",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 7
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_internal/resolution/legacy",
+      "new": "python3.9/lib/python3.12_site-packages_pip__internal_resolution_legacy",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 1
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_internal/resolution/resolvelib",
+      "new": "python3.9/lib/python3.12_site-packages_pip__internal_resolution_resolvelib",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 6
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_internal/metadata/importlib",
+      "new": "python3.9/lib/python3.12_site-packages_pip__internal_metadata_importlib",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_vendor/chardet/cli",
+      "new": "python3.9/lib/python3.12_site-packages_pip__vendor_chardet_cli",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 1
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_vendor/chardet/metadata",
+      "new": "python3.9/lib/python3.12_site-packages_pip__vendor_chardet_metadata",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 1
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_vendor/pygments/lexers",
+      "new": "python3.9/lib/python3.12_site-packages_pip__vendor_pygments_lexers",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 1
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_vendor/pygments/formatters",
+      "new": "python3.9/lib/python3.12_site-packages_pip__vendor_pygments_formatters",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 12
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_vendor/colorama/tests",
+      "new": "python3.9/lib/python3.12_site-packages_pip__vendor_colorama_tests",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 6
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_vendor/cachecontrol/caches",
+      "new": "python3.9/lib/python3.12_site-packages_pip__vendor_cachecontrol_caches",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 1
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_in_process",
+      "new": "python3.9/lib/python3.12_site-packages_pip__vendor_pyproject_hooks__in_process",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_vendor/urllib3/util",
+      "new": "python3.9/lib/python3.12_site-packages_pip__vendor_urllib3_util",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 6
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_vendor/urllib3/contrib",
+      "new": "python3.9/lib/python3.12_site-packages_pip__vendor_urllib3_contrib",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 1
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_vendor/urllib3/packages",
+      "new": "python3.9/lib/python3.12_site-packages_pip__vendor_urllib3_packages",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 1
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_vendor/resolvelib/compat",
+      "new": "python3.9/lib/python3.12_site-packages_pip__vendor_resolvelib_compat",
+      "old_depth": 8,
+      "new_depth": 3,
+      "files": 1
+    },
+    {
+      "old": "bare_except_backup_20251101_033421/leonardo/myenv/lib/python3.11/site-packages/pip",
+      "new": "bare_except_backup_20251101_033421/leonardo/myenv_lib_python3.11_site-packages_pip",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "bare_except_backup_20251101_033421/python3.9/lib/python3.12/site-packages/pip/_vendor",
+      "new": "bare_except_backup_20251101_033421/python3.9/lib_python3.12_site-packages_pip__vendor",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "tui.editor/plugins/table-merged-cell/src/__test__/integration/markdown",
+      "new": "tui.editor/plugins/table-merged-cell_src___test___integration_markdown",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "tui.editor/plugins/table-merged-cell/src/__test__/integration/wysiwyg",
+      "new": "tui.editor/plugins/table-merged-cell_src___test___integration_wysiwyg",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "tui.editor/plugins/code-syntax-highlight/src/__test__/integration/__snapshots__",
+      "new": "tui.editor/plugins/code-syntax-highlight_src___test___integration___snapshots__",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "tui.editor/libs/toastmark/src/commonmark/frontMatter/__test__",
+      "new": "tui.editor/libs/toastmark_src_commonmark_frontMatter___test__",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "tui.editor/libs/toastmark/src/commonmark/custom/__test__",
+      "new": "tui.editor/libs/toastmark_src_commonmark_custom___test__",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "tui.editor/libs/toastmark/src/commonmark/gfm/__test__",
+      "new": "tui.editor/libs/toastmark_src_commonmark_gfm___test__",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "tui.editor/apps/editor/src/ui/components/toolbar",
+      "new": "tui.editor/apps/editor_src_ui_components_toolbar",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "tui.editor/apps/editor/src/markdown/plugins/helper",
+      "new": "tui.editor/apps/editor_src_markdown_plugins_helper",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "tui.editor/apps/editor/src/wysiwyg/plugins/selection",
+      "new": "tui.editor/apps/editor_src_wysiwyg_plugins_selection",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "tui.editor/apps/editor/src/__test__/unit/markdown",
+      "new": "tui.editor/apps/editor_src___test___unit_markdown",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "tui.editor/apps/editor/src/__test__/unit/wysiwyg",
+      "new": "tui.editor/apps/editor_src___test___unit_wysiwyg",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "tui.editor/apps/editor/src/__test__/unit/helper",
+      "new": "tui.editor/apps/editor_src___test___unit_helper",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "tui.editor/apps/editor/src/__test__/unit/vdom",
+      "new": "tui.editor/apps/editor_src___test___unit_vdom",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "tui.editor/apps/editor/src/__test__/integration/ui",
+      "new": "tui.editor/apps/editor_src___test___integration_ui",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "tui.editor/apps/editor/src/__test__/integration/widget",
+      "new": "tui.editor/apps/editor_src___test___integration_widget",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "tui.editor/apps/editor/src/__test__/integration/vdom",
+      "new": "tui.editor/apps/editor_src___test___integration_vdom",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/PIL/.dylibs",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_PIL_.dylibs",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_internal",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__internal",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 6
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_vendor",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__vendor",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 1
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/urllib3-2.2.1.dist-info/licenses",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_urllib3-2.2.1.dist-info_licenses",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/urllib3/util",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_urllib3_util",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 12
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/urllib3/contrib",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_urllib3_contrib",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 2
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/setuptools/_vendor",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_setuptools__vendor",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 3
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/setuptools/config",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_setuptools_config",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 3
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/setuptools/command",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_setuptools_command",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 25
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/setuptools/_distutils",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_setuptools__distutils",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 27
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_internal/network",
+      "new": "python3.9/lib/python3.12_site-packages_pip__internal_network",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 7
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_internal/utils",
+      "new": "python3.9/lib/python3.12_site-packages_pip__internal_utils",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 14
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_internal/models",
+      "new": "python3.9/lib/python3.12_site-packages_pip__internal_models",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 10
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_internal/cli",
+      "new": "python3.9/lib/python3.12_site-packages_pip__internal_cli",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 6
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_internal/operations",
+      "new": "python3.9/lib/python3.12_site-packages_pip__internal_operations",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 3
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_internal/req",
+      "new": "python3.9/lib/python3.12_site-packages_pip__internal_req",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 5
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_internal/resolution",
+      "new": "python3.9/lib/python3.12_site-packages_pip__internal_resolution",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 1
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_internal/vcs",
+      "new": "python3.9/lib/python3.12_site-packages_pip__internal_vcs",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 5
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_internal/locations",
+      "new": "python3.9/lib/python3.12_site-packages_pip__internal_locations",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_internal/index",
+      "new": "python3.9/lib/python3.12_site-packages_pip__internal_index",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 3
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_internal/commands",
+      "new": "python3.9/lib/python3.12_site-packages_pip__internal_commands",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 9
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_internal/metadata",
+      "new": "python3.9/lib/python3.12_site-packages_pip__internal_metadata",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 2
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_internal/distributions",
+      "new": "python3.9/lib/python3.12_site-packages_pip__internal_distributions",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 2
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_vendor/packaging",
+      "new": "python3.9/lib/python3.12_site-packages_pip__vendor_packaging",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 6
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_vendor/truststore",
+      "new": "python3.9/lib/python3.12_site-packages_pip__vendor_truststore",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_vendor/msgpack",
+      "new": "python3.9/lib/python3.12_site-packages_pip__vendor_msgpack",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 2
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_vendor/chardet",
+      "new": "python3.9/lib/python3.12_site-packages_pip__vendor_chardet",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 24
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_vendor/webencodings",
+      "new": "python3.9/lib/python3.12_site-packages_pip__vendor_webencodings",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 4
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_vendor/pygments",
+      "new": "python3.9/lib/python3.12_site-packages_pip__vendor_pygments",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 14
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_vendor/distlib",
+      "new": "python3.9/lib/python3.12_site-packages_pip__vendor_distlib",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 11
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_vendor/pyparsing",
+      "new": "python3.9/lib/python3.12_site-packages_pip__vendor_pyparsing",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 8
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_vendor/distro",
+      "new": "python3.9/lib/python3.12_site-packages_pip__vendor_distro",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 1
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_vendor/colorama",
+      "new": "python3.9/lib/python3.12_site-packages_pip__vendor_colorama",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 5
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_vendor/cachecontrol",
+      "new": "python3.9/lib/python3.12_site-packages_pip__vendor_cachecontrol",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 3
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_vendor/idna",
+      "new": "python3.9/lib/python3.12_site-packages_pip__vendor_idna",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 7
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_vendor/tenacity",
+      "new": "python3.9/lib/python3.12_site-packages_pip__vendor_tenacity",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 7
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_vendor/requests",
+      "new": "python3.9/lib/python3.12_site-packages_pip__vendor_requests",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 14
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_vendor/tomli",
+      "new": "python3.9/lib/python3.12_site-packages_pip__vendor_tomli",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_vendor/certifi",
+      "new": "python3.9/lib/python3.12_site-packages_pip__vendor_certifi",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 1
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks",
+      "new": "python3.9/lib/python3.12_site-packages_pip__vendor_pyproject_hooks",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_vendor/rich",
+      "new": "python3.9/lib/python3.12_site-packages_pip__vendor_rich",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 49
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_vendor/urllib3",
+      "new": "python3.9/lib/python3.12_site-packages_pip__vendor_urllib3",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 6
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_vendor/resolvelib",
+      "new": "python3.9/lib/python3.12_site-packages_pip__vendor_resolvelib",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 4
+    },
+    {
+      "old": "python3.9/lib/python3.12/site-packages/pip/_vendor/platformdirs",
+      "new": "python3.9/lib/python3.12_site-packages_pip__vendor_platformdirs",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 6
+    },
+    {
+      "old": "03_ai_creative_tools/comic_factory/main/src/app/interface/page",
+      "new": "03_ai_creative_tools/comic_factory/main_src_app_interface_page",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "03_ai_creative_tools/comic_factory/main/src/app/interface/discord",
+      "new": "03_ai_creative_tools/comic_factory/main_src_app_interface_discord",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "03_ai_creative_tools/comic_factory/main/src/app/interface/advert",
+      "new": "03_ai_creative_tools/comic_factory/main_src_app_interface_advert",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "03_ai_creative_tools/comic_factory/main/src/app/interface/auth-wall",
+      "new": "03_ai_creative_tools/comic_factory/main_src_app_interface_auth-wall",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "03_ai_creative_tools/comic_factory/main/src/app/interface/edit-modal",
+      "new": "03_ai_creative_tools/comic_factory/main_src_app_interface_edit-modal",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "03_ai_creative_tools/comic_factory/main/src/app/interface/about",
+      "new": "03_ai_creative_tools/comic_factory/main_src_app_interface_about",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "03_ai_creative_tools/comic_factory/main/src/app/interface/select-layout",
+      "new": "03_ai_creative_tools/comic_factory/main_src_app_interface_select-layout",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "03_ai_creative_tools/comic_factory/main/src/app/interface/select-global-layout",
+      "new": "03_ai_creative_tools/comic_factory/main_src_app_interface_select-global-layout",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "03_ai_creative_tools/comic_factory/main/src/app/interface/zoom",
+      "new": "03_ai_creative_tools/comic_factory/main_src_app_interface_zoom",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "03_ai_creative_tools/comic_factory/main/src/app/interface/maintenance",
+      "new": "03_ai_creative_tools/comic_factory/main_src_app_interface_maintenance",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "03_ai_creative_tools/comic_factory/main/src/app/interface/display",
+      "new": "03_ai_creative_tools/comic_factory/main_src_app_interface_display",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "03_ai_creative_tools/comic_factory/main/src/app/interface/grid",
+      "new": "03_ai_creative_tools/comic_factory/main_src_app_interface_grid",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 0
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "app_name": "Python Codebase",
+  "version": "2.0.0",
+  "debug": false,
+  "log_level": "INFO",
+  "max_workers": 4,
+  "timeout": 30,
+  "max_retries": 3,
+  "data_dir": "~/data",
+  "log_dir": "~/logs",
+  "temp_dir": "~/temp",
+  "api_timeout": 30,
+  "api_retries": 3,
+  "quality_thresholds": {
+    "min_test_coverage": 80.0,
+    "max_complexity": 10,
+    "max_line_length": 127,
+    "min_docstring_coverage": 90.0,
+    "min_type_hint_coverage": 80.0
+  },
+  "file_patterns": {
+    "python_files": "**/*.py",
+    "test_files": "**/test_*.py",
+    "config_files": "**/*.json",
+    "documentation_files": "**/*.md"
+  },
+  "excluded_directories": [
+    "__pycache__",
+    ".git",
+    ".pytest_cache",
+    "venv",
+    "env",
+    ".venv",
+    ".env"
+  ],
+  "excluded_files": [
+    "*.pyc",
+    "*.pyo",
+    "*.pyd",
+    "*.so",
+    "*.dll",
+    "*.dylib"
+  ],
+  "code_quality": {
+    "enforce_black_formatting": true,
+    "enforce_type_hints": true,
+    "enforce_docstrings": true,
+    "enforce_error_handling": true,
+    "enforce_logging": true,
+    "max_function_length": 50,
+    "max_class_length": 200,
+    "max_file_length": 1000
+  },
+  "testing": {
+    "run_tests_on_commit": true,
+    "run_tests_on_push": true,
+    "coverage_threshold": 80.0,
+    "test_timeout": 300,
+    "parallel_tests": true,
+    "max_parallel_workers": 4
+  },
+  "documentation": {
+    "generate_docs": true,
+    "docs_format": "markdown",
+    "include_examples": true,
+    "include_type_hints": true,
+    "include_error_handling": true
+  },
+  "performance": {
+    "profile_slow_functions": true,
+    "slow_function_threshold": 1.0,
+    "memory_usage_threshold": 100,
+    "enable_caching": true,
+    "cache_ttl": 3600
+  },
+  "security": {
+    "scan_for_secrets": true,
+    "scan_for_vulnerabilities": true,
+    "enforce_https": true,
+    "validate_inputs": true,
+    "sanitize_outputs": true
+  },
+  "monitoring": {
+    "enable_logging": true,
+    "log_level": "INFO",
+    "log_format": "json",
+    "enable_metrics": true,
+    "enable_tracing": true,
+    "alert_on_errors": true
+  }
+}

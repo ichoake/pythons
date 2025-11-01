@@ -1,0 +1,36 @@
+Old Name,New Name,Services,Actions,Content Types,Purpose,Parent,Path
+social-platforms-youtube-ytubedlthumbscopy.py,social-platforms-youtube.py,,,,,SOCIAL_PLATFORMS,_versions/SOCIAL_PLATFORMS/social-platforms-youtube-ytubedlthumbscopy.py
+file-management-organize-sort2(1).py,image-organizer.py,,organize,"file, image",sort images,FILE_MANAGEMENT,_versions/FILE_MANAGEMENT/file-management-organize-sort2(1).py
+upload(1).py,upload.py,,,,,FILE_MANAGEMENT,_versions/FILE_MANAGEMENT/upload(1).py
+organize(1)_3.py,organize.py,,organize,"file, data",copy files with structure,FILE_MANAGEMENT,_versions/FILE_MANAGEMENT/organize(1)_3.py
+content-creation-quiz-main2(1).py,content-creation-quiz.py,,generate,"text, data",main,CONTENT_CREATION,_versions/CONTENT_CREATION/content-creation-quiz-main2(1).py
+content-creation-video-automation-motivational_video_generator_pexels.py,requests-video-downloadr.py,"requests, moviepy","process, download","file, audio",checkIfImageMagicksIsInstalled,CONTENT_CREATION,_versions/CONTENT_CREATION/content-creation-video-automation-motivational_video_generator_pexels.py
+content-creation-leonardo-leomotioncopy.py,content-creation-leonardo.py,"requests, leonardo",,text,,CONTENT_CREATION,_versions/CONTENT_CREATION/content-creation-leonardo-leomotioncopy.py
+media-processing-image-processing-image_print_optimizer_300dpi.py,image-downloadr.py,,"process, download",image,resize image to target size,MEDIA_PROCESSING,_versions/MEDIA_PROCESSING/media-processing-image-processing-image_print_optimizer_300dpi.py
+media-processing-image-processing-vanceai_batch_background_remover.py,requests-image-downloadr.py,requests,"process, download",image,remove background,MEDIA_PROCESSING,_versions/MEDIA_PROCESSING/media-processing-image-processing-vanceai_batch_background_remover.py
+media-processing-image-8mb(1).py,image-processr.py,,process,image,resize images in directory,MEDIA_PROCESSING,_versions/MEDIA_PROCESSING/media-processing-image-8mb(1).py
+analyze-shorts-info(1).py,analyze-shorts-info.py,,,,,AI_TOOLS,_versions/AI_TOOLS/analyze-shorts-info(1).py
+llm-engineering-infrastructure-aws-deploy-huggingface-sagemaker.py,llm-engineering-infrastructure.py,,"automate, generate",,prepare and deploy model,llm_engineering,LLM-Engineers-Handbook-main/llm_engineering/llm-engineering-infrastructure-aws-deploy-huggingface-sagemaker.py
+llm-engineering-infrastructure-aws-deploy-autoscaling_sagemaker_endpoint.py,llm-engineering-infrastructure.py,,"process, download",text,"in amazon sagemaker and other aws services, application auto scaling allows you to automatically sca",llm_engineering,LLM-Engineers-Handbook-main/llm_engineering/llm-engineering-infrastructure-aws-deploy-autoscaling_sagemaker_endpoint.py
+llm-engineering-infrastructure-aws-deploy-huggingface-youtube-create-endpoint.py,youtube-generater.py,youtube,generate,,create endpoint,llm_engineering,LLM-Engineers-Handbook-main/llm_engineering/llm-engineering-infrastructure-aws-deploy-huggingface-youtube-create-endpoint.py
+llm-engineering-infrastructure-aws-deploy-delete_sagemaker_endpoint.py,llm-engineering-infrastructure.py,,"automate, generate",,delete endpoint and config,llm_engineering,LLM-Engineers-Handbook-main/llm_engineering/llm-engineering-infrastructure-aws-deploy-delete_sagemaker_endpoint.py
+__compat__.py,compat.py,,"process, download",file, default exception debug action,lib_python3.11_site-packages_setuptools__vendor_pyparsing,leonardo/myenv/lib_python3.11_site-packages_setuptools__vendor_pyparsing/__compat__.py
+__config_flags.py,config-flags.py,,download,, collapse string to ranges,lib_python3.11_site-packages_pip__vendor_pyparsing,leonardo/myenv/lib_python3.11_site-packages_pip__vendor_pyparsing/__config_flags.py
+__compat__.py,compat.py,,"process, download",file, default exception debug action,lib_python3.11_site-packages_pip__vendor_pyparsing,leonardo/myenv/lib_python3.11_site-packages_pip__vendor_pyparsing/__compat__.py
+youtube__implementation.py,youtube-implementation.py,youtube,,data,module containing bug report helper(s),requests,leonardo/myenv/lib/python3.11/site-packages/requests/youtube__implementation.py
+NewUpload_20250607131239.py,youtube-video-downloadr.py,"requests, youtube","download, upload",video,get authenticated service,.history,Youtube/.history/NewUpload_20250607131239.py
+NewUpload_20250607125012.py,youtube-video-downloadr.py,"requests, youtube","download, upload",video,get authenticated service,.history,Youtube/.history/NewUpload_20250607125012.py
+NewUpload_20250607124910.py,newupload.py,,upload,,,.history,Youtube/.history/NewUpload_20250607124910.py
+NewUpload_20250607131031.py,newupload.py,,,,,.history,Youtube/.history/NewUpload_20250607131031.py
+NewUpload_20250607131227.py,newupload.py,,,,,.history,Youtube/.history/NewUpload_20250607131227.py
+NewUpload_20250607130507.py,youtube-video-downloadr.py,"requests, youtube","download, upload",video,get authenticated service,.history,Youtube/.history/NewUpload_20250607130507.py
+NewUpload_20250607131212.py,youtube-video-downloadr.py,"requests, youtube","download, upload",video,get authenticated service,.history,Youtube/.history/NewUpload_20250607131212.py
+NewUpload_20250607131221.py,newupload.py,,,,,.history,Youtube/.history/NewUpload_20250607131221.py
+NewUpload_20250607131215.py,newupload.py,,,,,.history,Youtube/.history/NewUpload_20250607131215.py
+NewUpload_20250607131205.py,newupload.py,,,,,.history,Youtube/.history/NewUpload_20250607131205.py
+NewUpload_20250607130440.py,youtube-video-downloadr.py,"requests, youtube","download, upload",video,get authenticated service,.history,Youtube/.history/NewUpload_20250607130440.py
+NewUpload_20250607131235.py,youtube-video-downloadr.py,"requests, youtube","download, upload",video,get authenticated service,.history,Youtube/.history/NewUpload_20250607131235.py
+NewUpload_20250607131149.py,youtube-video-downloadr.py,"requests, youtube","download, upload",video,get authenticated service,.history,Youtube/.history/NewUpload_20250607131149.py
+NewUpload_20250607124913.py,youtube-video-downloadr.py,"requests, youtube","download, upload",video,get authenticated service,.history,Youtube/.history/NewUpload_20250607124913.py
+NewUpload_20250607131028.py,newupload.py,,,,,.history,Youtube/.history/NewUpload_20250607131028.py
+NewUpload_20250607125040.py,youtube-video-downloadr.py,"requests, youtube","download, upload",video,get authenticated service,.history,Youtube/.history/NewUpload_20250607125040.py

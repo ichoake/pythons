@@ -1,0 +1,43 @@
+{
+  "metrics": [
+    {
+      "timestamp": "2025-10-14T12:46:04.016964",
+      "total_files": 2846,
+      "total_lines": 901640,
+      "total_functions": 1591,
+      "total_classes": 296,
+      "files_with_docstrings": 57,
+      "files_with_type_hints": 55,
+      "files_with_error_handling": 55,
+      "files_with_logging": 55,
+      "average_quality_score": 0.8,
+      "semantic_score": 0.0,
+      "maintainability_score": 0.0,
+      "performance_potential": 0.0,
+      "domains_detected": [],
+      "patterns_detected": [],
+      "anti_patterns_detected": [],
+      "improvement_opportunities": 0
+    },
+    {
+      "timestamp": "2025-10-14T12:46:31.075184",
+      "total_files": 2846,
+      "total_lines": 901640,
+      "total_functions": 1591,
+      "total_classes": 296,
+      "files_with_docstrings": 57,
+      "files_with_type_hints": 55,
+      "files_with_error_handling": 55,
+      "files_with_logging": 55,
+      "average_quality_score": 0.8,
+      "semantic_score": 0.0,
+      "maintainability_score": 0.0,
+      "performance_potential": 0.0,
+      "domains_detected": [],
+      "patterns_detected": [],
+      "anti_patterns_detected": [],
+      "improvement_opportunities": 0
+    }
+  ],
+  "last_updated": "2025-10-14T12:46:31.116700"
+}

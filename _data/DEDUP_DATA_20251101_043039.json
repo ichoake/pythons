@@ -1,0 +1,111 @@
+{
+  "timestamp": "2025-11-01T04:30:39.518670",
+  "stats": {
+    "total_files": 3158,
+    "exact_duplicates": 14,
+    "semantic_duplicates": 460,
+    "files_removed": 14,
+    "space_saved": 75105,
+    "groups_processed": 14
+  },
+  "removed_files": [
+    {
+      "removed": "deep_rename_backup_20251101_042419/sorting/youtube_copy_files_with_logging.py",
+      "kept": "sorting/youtube-copy-files.py",
+      "type": "exact_duplicate",
+      "size": 2252,
+      "reason": "Exact duplicate of youtube-copy-files.py"
+    },
+    {
+      "removed": "deep_rename_backup_20251101_042419/igbot/igbot-examples-like_and_follow_last_user_media_likers.py",
+      "kept": "igbot/examples/like-and-follow-v2.py",
+      "type": "exact_duplicate",
+      "size": 896,
+      "reason": "Exact duplicate of like-and-follow-v2.py"
+    },
+    {
+      "removed": "deep_rename_backup_20251101_042419/SpotifyMP3/.history/playlist_20221230180628.py",
+      "kept": "SpotifyMP3/.history/playlist-v2.py",
+      "type": "exact_duplicate",
+      "size": 6451,
+      "reason": "Exact duplicate of playlist-v2.py"
+    },
+    {
+      "removed": "deep_rename_backup_20251101_042419/SpotifyMP3/.history/playlist_20221230180525.py",
+      "kept": "SpotifyMP3/.history/playlist-v3.py",
+      "type": "exact_duplicate",
+      "size": 6429,
+      "reason": "Exact duplicate of playlist-v3.py"
+    },
+    {
+      "removed": "deep_rename_backup_20251101_042419/SpotifyMP3/.history/playlist_20221230180403.py",
+      "kept": "SpotifyMP3/.history/youtube-audio-downloadr.py",
+      "type": "exact_duplicate",
+      "size": 6421,
+      "reason": "Exact duplicate of youtube-audio-downloadr.py"
+    },
+    {
+      "removed": "deep_rename_backup_20251101_042419/SpotifyMP3/.history/playlist_20221230180508.py",
+      "kept": "SpotifyMP3/.history/playlist.py",
+      "type": "exact_duplicate",
+      "size": 6416,
+      "reason": "Exact duplicate of playlist.py"
+    },
+    {
+      "removed": "deep_rename_backup_20251101_042419/_versions/-versions-social-platforms-social-platforms-youtube-YTubeDLthumbscopy_2.py",
+      "kept": "_versions/SOCIAL_PLATFORMS/social-platforms-youtube-ytubedlthumbscopy.py",
+      "type": "exact_duplicate",
+      "size": 5674,
+      "reason": "Exact duplicate of social-platforms-youtube-ytubedlthumbscopy.py"
+    },
+    {
+      "removed": "deep_rename_backup_20251101_042419/_versions/-versions-web-scraping-YTdownloadthumbcopy_1.py",
+      "kept": "_versions/WEB_SCRAPING/youtube-video-downloadr.py",
+      "type": "exact_duplicate",
+      "size": 2611,
+      "reason": "Exact duplicate of youtube-video-downloadr.py"
+    },
+    {
+      "removed": "deep_rename_backup_20251101_042419/_versions/-versions-ai-tools-analyze-prompt(1)_1.py",
+      "kept": "_versions/AI_TOOLS/openai-audio-analyzer.py",
+      "type": "exact_duplicate",
+      "size": 4104,
+      "reason": "Exact duplicate of openai-audio-analyzer.py"
+    },
+    {
+      "removed": "deep_rename_backup_20251101_042419/leonardo/.history/leodown_20250102105149.py",
+      "kept": "leonardo/.history/leodown-v3.py",
+      "type": "exact_duplicate",
+      "size": 1320,
+      "reason": "Exact duplicate of leodown-v3.py"
+    },
+    {
+      "removed": "deep_rename_backup_20251101_042419/leonardo/.history/process_leonardo_20250102110441.py",
+      "kept": "leonardo/.history/requests-image-downloadr.py",
+      "type": "exact_duplicate",
+      "size": 4931,
+      "reason": "Exact duplicate of requests-image-downloadr.py"
+    },
+    {
+      "removed": "deep_rename_backup_20251101_042419/leonardo/.history/process_leonardo_20250102110258.py",
+      "kept": "leonardo/.history/requests-image-downloadr-v2.py",
+      "type": "exact_duplicate",
+      "size": 4939,
+      "reason": "Exact duplicate of requests-image-downloadr-v2.py"
+    },
+    {
+      "removed": "deep_rename_backup_20251101_042419/leonardo/myenv/lib_python3.11_site-packages_pip__vendor_platformdirs/youtube__get_user_dirs_folder.py",
+      "kept": "leonardo/myenv/lib_python3.11_site-packages_pip__vendor_platformdirs/youtube-downloadr.py",
+      "type": "exact_duplicate",
+      "size": 7448,
+      "reason": "Exact duplicate of youtube-downloadr.py"
+    },
+    {
+      "removed": "deep_rename_backup_20251101_042419/leonardo/myenv/lib_python3.11_site-packages_urllib3_util/youtube__encode_invalid_chars.py",
+      "kept": "leonardo/myenv/lib_python3.11_site-packages_urllib3_util/youtube-downloadr.py",
+      "type": "exact_duplicate",
+      "size": 15213,
+      "reason": "Exact duplicate of youtube-downloadr.py"
+    }
+  ]
+}

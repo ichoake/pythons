@@ -1,0 +1,68 @@
+{
+  "timestamp": "2025-11-01T04:25:17.165176",
+  "stats": {
+    "total_folders": 1162,
+    "folders_to_move": 8,
+    "deep_folders": 8,
+    "files_affected": 0
+  },
+  "max_depth": 6,
+  "move_plan": [
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_internal",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__internal",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/pip/_vendor",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_pip__vendor",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/urllib3/util",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_urllib3_util",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/urllib3/contrib",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_urllib3_contrib",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/setuptools/_vendor",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_setuptools__vendor",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/setuptools/config",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_setuptools_config",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/setuptools/command",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_setuptools_command",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 0
+    },
+    {
+      "old": "leonardo/myenv/lib/python3.11/site-packages/setuptools/_distutils",
+      "new": "leonardo/myenv/lib_python3.11_site-packages_setuptools__distutils",
+      "old_depth": 7,
+      "new_depth": 3,
+      "files": 0
+    }
+  ]
+}

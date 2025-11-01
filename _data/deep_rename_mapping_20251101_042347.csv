@@ -1,0 +1,44 @@
+Old Name,New Name,Services,Actions,Content Types,Purpose,Parent,Path
+youtube_copy_files_with_logging.py,youtube-copy-files.py,youtube,,"file, data",copy files with logging,sorting,sorting/youtube_copy_files_with_logging.py
+like_and_follow_last_user_media_likers.py,like-and-follow.py,,automate,,"instabot example
+
+workflow:
+    like and follow users who liked the last media of input users",examples,igbot/examples/like_and_follow_last_user_media_likers.py
+playlist_20221230180403.py,youtube-audio-downloadr.py,"requests, youtube","process, generate","data, audio",last fm artist info,.history,SpotifyMP3/.history/playlist_20221230180403.py
+playlist_20221230180508.py,playlist.py,,,,,.history,SpotifyMP3/.history/playlist_20221230180508.py
+playlist_20221230180628.py,playlist.py,,,,,.history,SpotifyMP3/.history/playlist_20221230180628.py
+playlist_20221230180525.py,playlist.py,,,,,.history,SpotifyMP3/.history/playlist_20221230180525.py
+YTubeDLthumbscopy_2.py,ytubedlthumbscopy.py,,,,,youtube,_versions/SOCIAL_PLATFORMS/youtube/YTubeDLthumbscopy_2.py
+YTdownloadthumbcopy_1.py,youtube-video-downloadr.py,"requests, pandas, youtube",download,video,fetch video details,download,_versions/WEB_SCRAPING/download/YTdownloadthumbcopy_1.py
+sort2(1).py,image-organizer.py,,organize,image,sort images,organize,_versions/FILE_MANAGEMENT/organize/sort2(1).py
+organize(1)_3.py,organize.py,,organize,"file, data",copy files with structure,organize,_versions/FILE_MANAGEMENT/organize/organize(1)_3.py
+upload(1).py,upload.py,,,,,upload,_versions/FILE_MANAGEMENT/upload/upload(1).py
+main2(1).py,main.py,,generate,data,main,quiz,_versions/CONTENT_CREATION/quiz/main2(1).py
+8mb(1).py,8mb-1.py,,,image,resize images in directory,image,_versions/MEDIA_PROCESSING/image/8mb(1).py
+analyze-shorts-info(1).py,analyze-shorts-info.py,,,,,analyze,_versions/AI_TOOLS/analyze/analyze-shorts-info(1).py
+analyze-prompt(1)_1.py,openai-audio-analyzer.py,openai,"process, analyze","text, audio",analyze text for section,analyze,_versions/AI_TOOLS/analyze/analyze-prompt(1)_1.py
+process_leonardo_20250102110441.py,requests-image-downloadr.py,"requests, leonardo","process, download","file, image",fetch and download all generations,.history,leonardo/.history/process_leonardo_20250102110441.py
+process_leonardo_20250102110258.py,requests-image-downloadr.py,"requests, leonardo","process, download","file, image",fetch and download all generations,.history,leonardo/.history/process_leonardo_20250102110258.py
+leodown_20250102105149.py,leodown.py,requests,,data,,.history,leonardo/.history/leodown_20250102105149.py
+youtube__get_user_dirs_folder.py,youtube-downloadr.py,youtube,download,"text, data", first item as path if multipath,lib_python3.11_site-packages_pip__vendor_platformdirs,leonardo/myenv/lib_python3.11_site-packages_pip__vendor_platformdirs/youtube__get_user_dirs_folder.py
+__compat__.py,compat.py,,"process, generate",file, default exception debug action,lib_python3.11_site-packages_setuptools__vendor_pyparsing,leonardo/myenv/lib_python3.11_site-packages_setuptools__vendor_pyparsing/__compat__.py
+__config_flags.py,config-flags.py,,download,, collapse string to ranges,lib_python3.11_site-packages_pip__vendor_pyparsing,leonardo/myenv/lib_python3.11_site-packages_pip__vendor_pyparsing/__config_flags.py
+__compat__.py,compat.py,,"process, generate",file, default exception debug action,lib_python3.11_site-packages_pip__vendor_pyparsing,leonardo/myenv/lib_python3.11_site-packages_pip__vendor_pyparsing/__compat__.py
+youtube__encode_invalid_chars.py,youtube-downloadr.py,youtube,"download, convert",, remove path dot segments,lib_python3.11_site-packages_urllib3_util,leonardo/myenv/lib_python3.11_site-packages_urllib3_util/youtube__encode_invalid_chars.py
+youtube__implementation.py,youtube-implementation.py,youtube,,data,module containing bug report helper(s),requests,leonardo/myenv/lib/python3.11/site-packages/requests/youtube__implementation.py
+NewUpload_20250607131239.py,youtube-video-downloadr.py,"requests, youtube","download, upload",video,get authenticated service,.history,Youtube/.history/NewUpload_20250607131239.py
+NewUpload_20250607125012.py,youtube-video-downloadr.py,"requests, youtube","download, upload",video,get authenticated service,.history,Youtube/.history/NewUpload_20250607125012.py
+NewUpload_20250607124910.py,newupload.py,,upload,,,.history,Youtube/.history/NewUpload_20250607124910.py
+NewUpload_20250607131031.py,newupload.py,,,,,.history,Youtube/.history/NewUpload_20250607131031.py
+NewUpload_20250607131227.py,newupload.py,,,,,.history,Youtube/.history/NewUpload_20250607131227.py
+NewUpload_20250607130507.py,youtube-video-downloadr.py,"requests, youtube","download, upload",video,get authenticated service,.history,Youtube/.history/NewUpload_20250607130507.py
+NewUpload_20250607131212.py,youtube-video-downloadr.py,"requests, youtube","download, upload",video,get authenticated service,.history,Youtube/.history/NewUpload_20250607131212.py
+NewUpload_20250607131221.py,newupload.py,,,,,.history,Youtube/.history/NewUpload_20250607131221.py
+NewUpload_20250607131215.py,newupload.py,,,,,.history,Youtube/.history/NewUpload_20250607131215.py
+NewUpload_20250607131205.py,newupload.py,,,,,.history,Youtube/.history/NewUpload_20250607131205.py
+NewUpload_20250607130440.py,youtube-video-downloadr.py,"requests, youtube","download, upload",video,get authenticated service,.history,Youtube/.history/NewUpload_20250607130440.py
+NewUpload_20250607131235.py,youtube-video-downloadr.py,"requests, youtube","download, upload",video,get authenticated service,.history,Youtube/.history/NewUpload_20250607131235.py
+NewUpload_20250607131149.py,youtube-video-downloadr.py,"requests, youtube","download, upload",video,get authenticated service,.history,Youtube/.history/NewUpload_20250607131149.py
+NewUpload_20250607124913.py,youtube-video-downloadr.py,"requests, youtube","download, upload",video,get authenticated service,.history,Youtube/.history/NewUpload_20250607124913.py
+NewUpload_20250607131028.py,newupload.py,,,,,.history,Youtube/.history/NewUpload_20250607131028.py
+NewUpload_20250607125040.py,youtube-video-downloadr.py,"requests, youtube","download, upload",video,get authenticated service,.history,Youtube/.history/NewUpload_20250607125040.py
