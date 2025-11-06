@@ -1,0 +1,354 @@
+================================================================================
+macOS Intel Terminal Tools Setup for AI Development
+Complete Installation Package
+================================================================================
+
+Created: 2024-11-06
+Purpose: Comprehensive macOS setup for OpenAI, Claude, Gemini, Grok, and more
+Platform: macOS 11.0+ (Intel and Apple Silicon)
+
+================================================================================
+WHAT'S INCLUDED
+================================================================================
+
+📦 Main Setup Script
+  → macos-ai-setup.sh (22KB)
+    - Automated installation of all tools
+    - Homebrew, Python, CLI tools
+    - AI SDK packages
+    - Environment configuration
+    - Helper functions
+
+📋 Requirements File
+  → requirements-ai-macos.txt (8.2KB)
+    - All Python packages for AI development
+    - OpenAI, Anthropic, Google AI, Groq SDKs
+    - Data processing libraries
+    - Media processing tools
+    - Development utilities
+
+📚 Documentation
+  → MACOS_AI_SETUP_GUIDE.md (15KB)
+    - Complete installation guide
+    - API key setup instructions
+    - Usage examples for all services
+    - Troubleshooting guide
+    - Advanced configuration
+
+  → quick-start.md (2.9KB)
+    - 10-minute quick start guide
+    - Essential commands
+    - Quick examples
+
+  → README_MACOS_AI_SETUP.md
+    - Overview and quick reference
+    - Project structure
+    - Helper commands reference
+
+================================================================================
+INSTALLATION STEPS
+================================================================================
+
+1. Run the setup script:
+   chmod +x macos-ai-setup.sh
+   ./macos-ai-setup.sh
+
+2. Configure API keys:
+   cp ~/.env.d/ai-services.env.template ~/.env.d/ai-services.env
+   nano ~/.env.d/ai-services.env
+
+3. Restart terminal:
+   source ~/.zshrc
+
+4. Verify installation:
+   ai-load-env
+   python verify-ai-setup.py
+
+================================================================================
+WHAT GETS INSTALLED
+================================================================================
+
+🍺 Homebrew Packages:
+  - git, curl, wget
+  - jq, tree, htop
+  - neovim, ripgrep, fzf
+  - bat, exa, fd
+  - gh (GitHub CLI)
+  - ffmpeg, imagemagick
+
+🐍 Python Environment:
+  - pyenv (version manager)
+  - Python 3.11.7
+  - virtualenv support
+
+🤖 AI Service SDKs:
+  - openai>=1.6.0
+  - anthropic>=0.8.1
+  - google-generativeai>=0.3.2
+  - groq>=0.4.1
+  - + 50+ additional packages
+
+🛠️ Development Tools:
+  - IPython/Jupyter
+  - Black/Ruff (formatting)
+  - pytest (testing)
+  - Rich (CLI output)
+
+================================================================================
+API KEYS REQUIRED
+================================================================================
+
+Get your API keys from:
+
+1. OpenAI
+   https://platform.openai.com/api-keys
+   Environment variable: OPENAI_API_KEY
+
+2. Anthropic (Claude)
+   https://console.anthropic.com/
+   Environment variable: ANTHROPIC_API_KEY
+
+3. Google (Gemini)
+   https://makersuite.google.com/app/apikey
+   Environment variable: GOOGLE_API_KEY
+
+4. xAI (Grok)
+   https://x.ai/api
+   Environment variable: XAI_API_KEY
+
+5. Groq (Optional but recommended)
+   https://console.groq.com/
+   Environment variable: GROQ_API_KEY
+
+================================================================================
+HELPER COMMANDS
+================================================================================
+
+After installation, these commands are available:
+
+  ai-load-env          Load all AI environment variables
+  ai-check-keys        Check API key configuration status
+  ai-list-models       List all available AI models
+  
+  ai-test-openai       Test OpenAI API connection
+  ai-test-claude       Test Claude API connection
+  ai-test-gemini       Test Gemini API connection
+
+================================================================================
+FILE STRUCTURE
+================================================================================
+
+After installation:
+
+~/.env.d/
+├── ai-services.env              # Your API keys (created by you)
+├── ai-services.env.template     # Template (created by setup)
+└── .gitignore                   # Protects secrets (created by setup)
+
+~/.ai-helpers.sh                 # Helper bash functions
+
+~/.pyenv/                        # Python version management
+└── versions/
+    └── 3.11.7/                  # Python 3.11
+
+~/workspace/                     # Your workspace
+├── macos-ai-setup.sh           # Main setup script
+├── requirements-ai-macos.txt   # Python packages
+├── verify-ai-setup.py          # Verification script (created by setup)
+├── MACOS_AI_SETUP_GUIDE.md     # Full documentation
+├── quick-start.md              # Quick start guide
+└── README_MACOS_AI_SETUP.md    # Overview
+
+================================================================================
+QUICK START EXAMPLE
+================================================================================
+
+After setup, create a file test-ai.py:
+
+```python
+from openai import OpenAI
+from anthropic import Anthropic
+import google.generativeai as genai
+import os
+
+# OpenAI
+openai_client = OpenAI()
+gpt_response = openai_client.chat.completions.create(
+    model="gpt-4-turbo-preview",
+    messages=[{"role": "user", "content": "Hello from GPT!"}]
+)
+print("GPT-4:", gpt_response.choices[0].message.content)
+
+# Claude
+claude_client = Anthropic()
+claude_response = claude_client.messages.create(
+    model="claude-3-opus-20240229",
+    max_tokens=100,
+    messages=[{"role": "user", "content": "Hello from Claude!"}]
+)
+print("Claude:", claude_response.content[0].text)
+
+# Gemini
+genai.configure(api_key=os.environ['GOOGLE_API_KEY'])
+gemini = genai.GenerativeModel('gemini-pro')
+gemini_response = gemini.generate_content("Hello from Gemini!")
+print("Gemini:", gemini_response.text)
+```
+
+Run with:
+  ai-load-env && python test-ai.py
+
+================================================================================
+VERIFICATION
+================================================================================
+
+Run the verification script to test everything:
+
+  python verify-ai-setup.py
+
+Expected output:
+
+  ✅ OpenAI API: Working
+  ✅ Claude API: Working
+  ✅ Gemini API: Working
+  ✅ Groq API: Working
+  
+  🎉 All systems operational! Ready for AI development.
+
+================================================================================
+TROUBLESHOOTING
+================================================================================
+
+If you encounter issues:
+
+1. Verify Python version:
+   python --version  # Should show 3.11.x
+
+2. Check environment:
+   ai-check-keys
+
+3. Reinstall packages:
+   pip install -r requirements-ai-macos.txt
+
+4. Run verification:
+   python verify-ai-setup.py
+
+5. Check logs:
+   Most errors show detailed messages
+
+================================================================================
+SUPPORTED AI MODELS
+================================================================================
+
+OpenAI:
+  - gpt-4-turbo-preview, gpt-4, gpt-3.5-turbo
+  - dall-e-3, whisper-1
+
+Anthropic:
+  - claude-3-opus-20240229
+  - claude-3-sonnet-20240229
+  - claude-3-haiku-20240307
+
+Google:
+  - gemini-pro
+  - gemini-pro-vision
+
+Groq:
+  - mixtral-8x7b-32768
+  - llama2-70b-4096
+
+================================================================================
+SYSTEM REQUIREMENTS
+================================================================================
+
+Minimum:
+  - macOS 11.0 (Big Sur) or later
+  - 8 GB RAM
+  - 10 GB free disk space
+  - Broadband internet
+
+Recommended:
+  - macOS 13.0 (Ventura) or later
+  - 16 GB RAM
+  - 20 GB free disk space
+  - Fast internet connection
+
+================================================================================
+SECURITY NOTES
+================================================================================
+
+⚠️  IMPORTANT:
+  - Never commit .env files to version control
+  - The setup creates .gitignore to protect your keys
+  - Use different keys for development and production
+  - Set usage limits on API dashboards
+  - Rotate API keys every 90 days
+  - Monitor API usage regularly
+
+================================================================================
+NEXT STEPS
+================================================================================
+
+After successful installation:
+
+1. Read the full guide:
+   open MACOS_AI_SETUP_GUIDE.md
+
+2. Try the quick start:
+   open quick-start.md
+
+3. Build your first AI app:
+   - Start with simple chat completions
+   - Experiment with different models
+   - Compare responses
+
+4. Explore frameworks:
+   - LangChain for complex workflows
+   - LlamaIndex for document QA
+   - Gradio/Streamlit for interfaces
+
+================================================================================
+ADDITIONAL RESOURCES
+================================================================================
+
+Official Documentation:
+  - OpenAI: https://platform.openai.com/docs
+  - Anthropic: https://docs.anthropic.com/
+  - Google AI: https://ai.google.dev/docs
+  - Groq: https://console.groq.com/docs
+
+Learning Resources:
+  - OpenAI Cookbook: https://github.com/openai/openai-cookbook
+  - Anthropic Examples: https://github.com/anthropics/anthropic-cookbook
+  - LangChain Docs: https://python.langchain.com/
+
+================================================================================
+SUPPORT
+================================================================================
+
+Having issues?
+  1. Check MACOS_AI_SETUP_GUIDE.md troubleshooting section
+  2. Run verify-ai-setup.py for diagnostics
+  3. Check service status pages
+  4. Review API documentation
+
+================================================================================
+SUMMARY
+================================================================================
+
+✅ Complete AI development environment for macOS
+✅ Support for OpenAI, Claude, Gemini, Grok, and more
+✅ Python 3.11 with 50+ AI/ML packages
+✅ Essential development tools and utilities
+✅ Secure API key management
+✅ Helper scripts and verification tools
+✅ Comprehensive documentation
+
+Total installation time: 15-30 minutes
+Total disk usage: ~5-8 GB
+
+Ready to build amazing AI applications! 🚀
+
+================================================================================
+End of Setup Summary
+================================================================================

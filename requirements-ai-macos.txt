@@ -1,0 +1,320 @@
+# ============================================================================
+# AI Development Requirements for macOS
+# Optimized for Intel and Apple Silicon Macs
+# Supports: OpenAI, Claude (Anthropic), Gemini (Google), Grok (xAI)
+# ============================================================================
+
+# ============================================================================
+# Core AI Service SDKs
+# ============================================================================
+
+# OpenAI - GPT-4, GPT-3.5, DALL-E, Whisper
+openai>=1.6.0
+
+# Anthropic - Claude 3 (Opus, Sonnet, Haiku)
+anthropic>=0.8.1
+
+# Google - Gemini Pro, Gemini Pro Vision
+google-generativeai>=0.3.2
+
+# Groq - Fast LLM inference
+groq>=0.4.1
+
+# xAI - Grok (when Python SDK is available)
+# xai>=0.1.0  # Uncomment when available
+
+# ============================================================================
+# Additional AI Services
+# ============================================================================
+
+# Replicate - Run AI models via API
+replicate>=0.15.4
+
+# Hugging Face - Transformers and model hub
+transformers>=4.36.0
+huggingface-hub>=0.19.0
+
+# Stability AI - Stable Diffusion
+stability-sdk>=0.8.4
+
+# ElevenLabs - Voice AI
+elevenlabs>=0.2.27
+
+# Cohere - Language AI
+cohere>=4.37
+
+# ============================================================================
+# Environment & Configuration
+# ============================================================================
+
+# Environment variable management
+python-dotenv>=1.0.0
+
+# Configuration management
+pyyaml>=6.0.1
+toml>=0.10.2
+
+# ============================================================================
+# HTTP & Networking
+# ============================================================================
+
+# Synchronous HTTP
+requests>=2.31.0
+urllib3>=2.1.0
+
+# Asynchronous HTTP
+httpx>=0.25.2
+aiohttp>=3.9.1
+websockets>=12.0
+
+# ============================================================================
+# Data Processing & Analysis
+# ============================================================================
+
+# Data manipulation
+pandas>=2.1.4
+numpy>=1.24.3
+
+# Data validation
+pydantic>=2.5.2
+jsonschema>=4.20.0
+
+# ============================================================================
+# Media Processing
+# ============================================================================
+
+# Image processing
+pillow>=10.1.0
+opencv-python>=4.8.1.78
+imageio>=2.33.1
+
+# Audio processing
+pydub>=0.25.1
+librosa>=0.10.1
+soundfile>=0.12.1
+
+# OpenAI Whisper for transcription
+openai-whisper>=20231117
+
+# Video processing
+moviepy>=1.0.3
+
+# ============================================================================
+# CLI & User Interface
+# ============================================================================
+
+# Rich terminal output
+rich>=13.7.0
+colorama>=0.4.6
+termcolor>=2.4.0
+
+# Progress bars
+tqdm>=4.66.1
+
+# CLI framework
+click>=8.1.7
+typer>=0.9.0
+
+# ============================================================================
+# Development Tools
+# ============================================================================
+
+# Interactive Python
+ipython>=8.18.1
+ipykernel>=6.27.1
+
+# Jupyter notebooks
+jupyter>=1.0.0
+jupyterlab>=4.0.9
+
+# Code formatting
+black>=23.12.1
+autopep8>=2.0.4
+
+# Linting
+ruff>=0.1.8
+pylint>=3.0.3
+flake8>=6.1.0
+
+# Type checking
+mypy>=1.7.1
+
+# ============================================================================
+# Testing
+# ============================================================================
+
+pytest>=7.4.3
+pytest-asyncio>=0.21.1
+pytest-cov>=4.1.0
+
+# ============================================================================
+# Database & Storage
+# ============================================================================
+
+# SQL databases
+sqlalchemy>=2.0.23
+
+# NoSQL
+redis>=5.0.1
+
+# Vector databases for AI
+chromadb>=0.4.18
+pinecone-client>=2.2.4
+qdrant-client>=1.7.0
+
+# ============================================================================
+# Async & Performance
+# ============================================================================
+
+asyncio-throttle>=1.0.2
+aiometer>=0.5.0
+
+# ============================================================================
+# Utilities
+# ============================================================================
+
+# Date/time handling
+python-dateutil>=2.8.2
+pytz>=2023.3
+
+# File handling
+pathlib2>=2.3.7
+
+# Logging
+structlog>=23.2.0
+loguru>=0.7.2
+
+# Retry logic
+tenacity>=8.2.3
+
+# Rate limiting
+ratelimit>=2.2.1
+
+# ============================================================================
+# Web Frameworks (Optional - for building AI APIs)
+# ============================================================================
+
+# FastAPI for AI API development
+fastapi>=0.105.0
+uvicorn[standard]>=0.25.0
+pydantic-settings>=2.1.0
+
+# Gradio for AI demos
+gradio>=4.8.0
+
+# Streamlit for AI apps
+streamlit>=1.29.0
+
+# ============================================================================
+# Document Processing
+# ============================================================================
+
+# PDF
+pypdf>=3.17.3
+pymupdf>=1.23.8
+
+# Office documents
+python-docx>=1.1.0
+openpyxl>=3.1.2
+
+# Markdown
+markdown>=3.5.1
+mistune>=3.0.2
+
+# ============================================================================
+# Web Scraping (Optional)
+# ============================================================================
+
+beautifulsoup4>=4.12.2
+lxml>=4.9.4
+selenium>=4.16.0
+playwright>=1.40.0
+
+# ============================================================================
+# Social Media APIs (Optional)
+# ============================================================================
+
+tweepy>=4.14.0
+praw>=7.7.1
+
+# ============================================================================
+# Cloud Services (Optional)
+# ============================================================================
+
+# AWS
+boto3>=1.34.14
+
+# Google Cloud
+google-cloud-storage>=2.14.0
+
+# Azure
+azure-storage-blob>=12.19.0
+
+# ============================================================================
+# LangChain & AI Frameworks (Optional but Recommended)
+# ============================================================================
+
+langchain>=0.1.0
+langchain-openai>=0.0.2
+langchain-anthropic>=0.0.1
+langchain-google-genai>=0.0.5
+
+# Vector store integrations
+langchain-chroma>=0.1.0
+langchain-pinecone>=0.0.1
+
+# ============================================================================
+# Prompt Engineering
+# ============================================================================
+
+# OpenAI function calling helpers
+openai-function-call>=0.2.2
+
+# ============================================================================
+# Monitoring & Observability (Optional)
+# ============================================================================
+
+# LLM monitoring
+langsmith>=0.0.71
+litellm>=1.17.0
+
+# Error tracking
+sentry-sdk>=1.39.1
+
+# ============================================================================
+# Platform-Specific Optimizations for macOS
+# ============================================================================
+
+# Apple Silicon optimizations (automatically used when available)
+# These packages have native ARM64 wheels for Apple Silicon
+
+# Note: torch/tensorflow require special installation for MPS (Metal Performance Shaders)
+# Uncomment if you need local ML models:
+# torch>=2.1.2
+# tensorflow-macos>=2.15.0  # Apple Silicon only
+# tensorflow-metal>=1.1.0   # Apple Silicon only
+
+# ============================================================================
+# Installation Notes
+# ============================================================================
+# 
+# Install all packages:
+#   pip install -r requirements-ai-macos.txt
+#
+# Install without optional dependencies:
+#   pip install -r requirements-ai-macos.txt --no-deps
+#
+# Install with specific package groups:
+#   Core only: Install up to "Data Processing & Analysis"
+#   Full stack: Install everything
+#
+# For Apple Silicon Macs:
+#   - Most packages have native ARM64 wheels
+#   - Use conda/miniforge for optimal performance with ML packages
+#   - Install Rosetta 2 for any Intel-only packages: 
+#     softwareupdate --install-rosetta
+#
+# Verify installation:
+#   python verify-ai-setup.py
+#
+# ============================================================================
